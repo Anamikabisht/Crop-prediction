@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("/static/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px black;
+}
+h2{
+    color: rgb(250, 250, 250);
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+form {
+    text-align: center;
+    margin: 20px auto;    /* pehle 50px tha */
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;             /* inputs ke beech thoda kam gap */
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    height: 36px;         /* thoda chhota input */
+    font-size: 18px;
+    border-radius: 8px;
+    padding-left: 8px;
+    margin: 2px 0;        /* har input ke beech minimal spacing */
+}
+
+p {
+    margin-top: 8px;      /* default margin remove karke chhota diya */
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;      /* thoda compact */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(14, 13, 13);
+    font-style: italic;
+    font-weight: 500;
+}
