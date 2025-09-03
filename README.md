@@ -6,13 +6,13 @@ The ML model is trained and saved as a `.pkl` file, which is integrated with a F
 
 ---
 
-## 🚀 Features
-- User-friendly interface 🌸
+##  Features
+- User-friendly interface 
 - Takes soil & weather inputs  
-- Suggests the most suitable crop 🌾  
+- Suggests the most suitable crop   
 - Built using Flask + Scikit-learn + HTML/CSS
 
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 - **Algorithm Used:** Random Forest Classifier  
 - **Accuracy Achieved:** 0.9931818181818182 (~99.31%)
 
